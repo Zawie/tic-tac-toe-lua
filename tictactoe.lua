@@ -1,5 +1,5 @@
 local lastmove = nil
-
+local nothing = nil
 local function displayBoard(board)
 	local b = board
 	print(string.format(
